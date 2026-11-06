@@ -1,0 +1,34 @@
+{
+  "baseline_dense": {
+    "hit_at_5": 0.9,
+    "precision_at_5": 0.3,
+    "recall_at_5": 0.85,
+    "mrr": 0.7,
+    "answer_relevance": 0.65,
+    "faithfulness": 0.85,
+    "average_latency": 8.66559510830557,
+    "average_attempts": 1.0
+  },
+  "static_advanced": {
+    "hit_at_5": 0.8,
+    "precision_at_5": 0.3,
+    "recall_at_5": 0.7,
+    "mrr": 0.72,
+    "answer_relevance": 0.5,
+    "faithfulness": 0.7083333333333333,
+    "average_latency": 8.870427870878483,
+    "average_attempts": 1.0,
+    "mrr_improvement_vs_baseline_pct": 2.85714285714286
+  },
+  "self_improving": {
+    "hit_at_5": 0.8,
+    "precision_at_5": 0.3,
+    "recall_at_5": 0.7,
+    "mrr": 0.72,
+    "answer_relevance": 0.2,
+    "faithfulness": 0.2,
+    "average_latency": 22.856347091612406,
+    "average_attempts": 4.0,
+    "mrr_improvement_vs_baseline_pct": 2.85714285714286
+  }
+}

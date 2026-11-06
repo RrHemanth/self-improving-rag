@@ -1,0 +1,327 @@
+[
+  {
+    "query": "How can you access Python's built-in help when you do not know a command?",
+    "relevant_pages": [
+      64
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 18.52460595802404,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 11.380919959046878,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 97.04988720803522,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 80.0510379159823,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "query": "What does IDLE's color coding tell you about Python code?",
+    "relevant_pages": [
+      77
+    ],
+    "query_type": "lexical",
+    "difficulty": "easy",
+    "baseline": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 9.93714166607242,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 12.054275208036415,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 76.67017112509347,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 64.21585666702595,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "query": "Why is indentation useful when writing Python code in IDLE?",
+    "relevant_pages": [
+      88
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 11.682543709059246,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.5,
+      "latency": 10.866797792026773,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 97.8293953340035,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 86.0971737500513,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "query": "How can comments be used to leave reminders in Python code?",
+    "relevant_pages": [
+      91
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 12.574883416062221,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 11.109198290971108,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 83.7849687919952,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "bm25_rewritten",
+      "best_strategies": [
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 80.76589316595346,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "bm25_rewritten",
+      "best_strategies": [
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "query": "What are Python's essential numeric data types?",
+    "relevant_pages": [
+      101
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.0,
+      "latency": 9.4692317500012,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.0,
+      "latency": 7.0027962499298155,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 84.82557029090822,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "dense_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 42.69720566703472,
+      "attempts": 2,
+      "mode": "exploit",
+      "initial_strategy": "dense_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  }
+]

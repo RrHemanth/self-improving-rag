@@ -1,0 +1,17 @@
+sentence-transformers
+faiss-cpu
+pypdf
+python-docx
+numpy
+pandas
+pyyaml
+openai
+ollama
+rank-bm25
+langchain-core
+langchain-ollama
+streamlit
+
+langchain-openai
+langchain-anthropic
+langchain-google-genai

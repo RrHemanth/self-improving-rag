@@ -1,0 +1,384 @@
+[
+  {
+    "query": "How can you access Python's built-in help when you do not know a command?",
+    "relevant_pages": [
+      64
+    ],
+    "baseline": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.0,
+      "faithfulness": 0.5,
+      "latency": 10.809434082941152,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 8.151633291039616,
+      "attempts": 1
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 58.549330790992826,
+      "attempts": 4,
+      "mode": "explore",
+      "strategy": "hybrid_rewritten"
+    }
+  },
+  {
+    "query": "What does IDLE's color coding tell you about Python code?",
+    "relevant_pages": [
+      77
+    ],
+    "baseline": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 9.412961291032843,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 9.355855167028494,
+      "attempts": 1
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 0.0,
+      "faithfulness": 0.0,
+      "latency": 19.813023334019817,
+      "attempts": 4,
+      "mode": "explore",
+      "strategy": "hybrid_rewritten"
+    }
+  },
+  {
+    "query": "Why is indentation useful when writing Python code in IDLE?",
+    "relevant_pages": [
+      88
+    ],
+    "baseline": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 8.62007808405906,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.0,
+      "faithfulness": 0.5,
+      "latency": 8.13252299989108,
+      "attempts": 1
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.0,
+      "faithfulness": 0.0,
+      "latency": 19.11159783299081,
+      "attempts": 4,
+      "mode": "explore",
+      "strategy": "hybrid_rewritten"
+    }
+  },
+  {
+    "query": "How can comments be used to leave reminders in Python code?",
+    "relevant_pages": [
+      91
+    ],
+    "baseline": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 9.429497625096701,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.16666666666666666,
+      "latency": 11.452533916919492,
+      "attempts": 1
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.0,
+      "faithfulness": 0.0,
+      "latency": 17.341297042090446,
+      "attempts": 4,
+      "mode": "explore",
+      "strategy": "bm25_rewritten"
+    }
+  },
+  {
+    "query": "What are Python's essential numeric data types?",
+    "relevant_pages": [
+      101
+    ],
+    "baseline": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.0,
+      "latency": 5.850150667014532,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.0,
+      "latency": 4.552645749994554,
+      "attempts": 1
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 28.7782685830025,
+      "attempts": 4,
+      "mode": "explore",
+      "strategy": "dense_rewritten"
+    }
+  },
+  {
+    "query": "How are Boolean values represented in Python?",
+    "relevant_pages": [
+      105
+    ],
+    "baseline": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 5.705515249981545,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 6.338711709016934,
+      "attempts": 1
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 0.0,
+      "faithfulness": 0.0,
+      "latency": 16.17635970900301,
+      "attempts": 4,
+      "mode": "explore",
+      "strategy": "dense_rewritten"
+    }
+  },
+  {
+    "query": "How does the book explain working with dates and times in Python?",
+    "relevant_pages": [
+      107
+    ],
+    "baseline": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 10.612048625014722,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.0,
+      "faithfulness": 0.75,
+      "latency": 11.623236416024156,
+      "attempts": 1
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.0,
+      "faithfulness": 0.0,
+      "latency": 18.701897750026546,
+      "attempts": 4,
+      "mode": "explore",
+      "strategy": "hybrid_rewritten"
+    }
+  },
+  {
+    "query": "Why does operator precedence matter in Python expressions?",
+    "relevant_pages": [
+      119
+    ],
+    "baseline": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 11.10871491592843,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 11.19554366695229,
+      "attempts": 1
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.0,
+      "faithfulness": 0.0,
+      "latency": 14.690517124952748,
+      "attempts": 4,
+      "mode": "explore",
+      "strategy": "hybrid_rewritten"
+    }
+  },
+  {
+    "query": "How do you define a function in Python?",
+    "relevant_pages": [
+      121,
+      122
+    ],
+    "baseline": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 9.074154292000458,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 8.504765167017467,
+      "attempts": 1
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 1.0,
+      "answer_relevance": 0.0,
+      "faithfulness": 0.0,
+      "latency": 17.733426708029583,
+      "attempts": 4,
+      "mode": "explore",
+      "strategy": "hybrid_rewritten"
+    }
+  },
+  {
+    "query": "How do you call a function after it has been defined?",
+    "relevant_pages": [
+      123,
+      124
+    ],
+    "baseline": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 6.033396249986254,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 0.2,
+      "answer_relevance": 0.0,
+      "faithfulness": 0.6666666666666666,
+      "latency": 9.396830624900758,
+      "attempts": 1
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 0.2,
+      "answer_relevance": 0.0,
+      "faithfulness": 0.0,
+      "latency": 17.667752041015774,
+      "attempts": 4,
+      "mode": "explore",
+      "strategy": "hybrid_rewritten"
+    }
+  }
+]

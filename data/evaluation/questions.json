@@ -1,0 +1,520 @@
+[
+  {
+    "query": "How can you access Python's built-in help when you do not know a command?",
+    "relevant_pages": [
+      64
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "What does IDLE's color coding tell you about Python code?",
+    "relevant_pages": [
+      77
+    ],
+    "query_type": "lexical",
+    "difficulty": "easy"
+  },
+  {
+    "query": "Why is indentation useful when writing Python code in IDLE?",
+    "relevant_pages": [
+      88
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How can comments be used to leave reminders in Python code?",
+    "relevant_pages": [
+      91
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "What are Python's essential numeric data types?",
+    "relevant_pages": [
+      101
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How are Boolean values represented in Python?",
+    "relevant_pages": [
+      105
+    ],
+    "query_type": "lexical",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How does the book explain working with dates and times in Python?",
+    "relevant_pages": [
+      107
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "Why does operator precedence matter in Python expressions?",
+    "relevant_pages": [
+      119
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How do you define a function in Python?",
+    "relevant_pages": [
+      121,
+      122
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How do you call a function after it has been defined?",
+    "relevant_pages": [
+      123,
+      124
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How do you pass information into a Python function?",
+    "relevant_pages": [
+      124
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How can a function accept a variable number of arguments?",
+    "relevant_pages": [
+      127,
+      128
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How does a Python function return information to its caller?",
+    "relevant_pages": [
+      128,
+      129
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How can function return values be used in comparisons?",
+    "relevant_pages": [
+      130
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How does an if statement make a simple decision in Python?",
+    "relevant_pages": [
+      134
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How do you choose between two alternatives using if and else?",
+    "relevant_pages": [
+      140
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How can if, elif, and else be used when there are more than two possible outcomes?",
+    "relevant_pages": [
+      141
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "What is a nested decision statement and when would you use one?",
+    "relevant_pages": [
+      145
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How do you create a basic for loop in Python?",
+    "relevant_pages": [
+      151
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "What does the break statement do inside a loop?",
+    "relevant_pages": [
+      152
+    ],
+    "query_type": "lexical",
+    "difficulty": "easy"
+  },
+  {
+    "query": "What does continue do when used inside a loop?",
+    "relevant_pages": [
+      154
+    ],
+    "query_type": "lexical",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How does a while loop differ from a for loop in how repetition is controlled?",
+    "relevant_pages": [
+      159
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "What does it mean to nest loop statements in Python?",
+    "relevant_pages": [
+      161
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How does the book distinguish different types of Python errors?",
+    "relevant_pages": [
+      169
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How do you perform basic exception handling in Python?",
+    "relevant_pages": [
+      172
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "What is nested exception handling?",
+    "relevant_pages": [
+      180
+    ],
+    "query_type": "lexical",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How can a program deliberately raise an exception?",
+    "relevant_pages": [
+      190
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How do you create and use a custom exception in Python?",
+    "relevant_pages": [
+      192
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "What is the purpose of the finally clause in exception handling?",
+    "relevant_pages": [
+      194
+    ],
+    "query_type": "lexical",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How does the import statement bring a module into a Python program?",
+    "relevant_pages": [
+      203
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "What is the difference between import and from...import?",
+    "relevant_pages": [
+      203,
+      204
+    ],
+    "query_type": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How can you use Python module documentation to learn about a library?",
+    "relevant_pages": [
+      214
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How are characters represented inside Python strings?",
+    "relevant_pages": [
+      223
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How do you select an individual character from a string?",
+    "relevant_pages": [
+      227
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How does string slicing let you extract part of a string?",
+    "relevant_pages": [
+      229
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How can you locate a value inside a string?",
+    "relevant_pages": [
+      233
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How can string output be formatted in Python?",
+    "relevant_pages": [
+      235
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How do you create a list in Python?",
+    "relevant_pages": [
+      242
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How do you access values stored in a Python list?",
+    "relevant_pages": [
+      244
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How can you loop through all items in a list?",
+    "relevant_pages": [
+      247
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How can a Python list be modified after it is created?",
+    "relevant_pages": [
+      248
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How do you search for an item in a list?",
+    "relevant_pages": [
+      252
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How can you sort values in a Python list?",
+    "relevant_pages": [
+      254
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "What is the Counter object used for?",
+    "relevant_pages": [
+      256
+    ],
+    "query_type": "lexical",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How are tuples different from ordinary lists?",
+    "relevant_pages": [
+      261
+    ],
+    "query_type": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How do Python dictionaries organize data?",
+    "relevant_pages": [
+      264,
+      265
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How can a list be used to implement a stack?",
+    "relevant_pages": [
+      272
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How does the book implement queue-style data handling?",
+    "relevant_pages": [
+      276
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "What is a deque and how is it used?",
+    "relevant_pages": [
+      279
+    ],
+    "query_type": "lexical",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How do you define a class in Python?",
+    "relevant_pages": [
+      285
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "What role do methods play inside a Python class?",
+    "relevant_pages": [
+      289
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "What is a constructor and how is it used in a class?",
+    "relevant_pages": [
+      291
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "What does operator overloading allow a Python class to do?",
+    "relevant_pages": [
+      298
+    ],
+    "query_type": "semantic",
+    "difficulty": "hard"
+  },
+  {
+    "query": "How do you extend an existing class to create a child class?",
+    "relevant_pages": [
+      303
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How do you create a file for permanent storage in Python?",
+    "relevant_pages": [
+      314
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How do you read content from a file?",
+    "relevant_pages": [
+      317
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How can existing file content be updated?",
+    "relevant_pages": [
+      319
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How do you delete a file from Python?",
+    "relevant_pages": [
+      324
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy"
+  },
+  {
+    "query": "How does the book create a plain-text email message in Python?",
+    "relevant_pages": [
+      339
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How does creating an HTML email differ from creating a plain-text email?",
+    "relevant_pages": [
+      340
+    ],
+    "query_type": "comparison",
+    "difficulty": "medium"
+  },
+  {
+    "query": "What is VirtualEnv used for in Python development?",
+    "relevant_pages": [
+      365
+    ],
+    "query_type": "lexical",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How can PyUnit be used to test Python applications?",
+    "relevant_pages": [
+      370
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  },
+  {
+    "query": "What does SQLAlchemy provide for Python database work?",
+    "relevant_pages": [
+      374
+    ],
+    "query_type": "lexical",
+    "difficulty": "medium"
+  },
+  {
+    "query": "How can TkInter be used to add a graphical user interface to a Python application?",
+    "relevant_pages": [
+      375
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium"
+  }
+]

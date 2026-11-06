@@ -1,0 +1,4206 @@
+[
+  {
+    "question_number": 1,
+    "query": "How can you access Python's built-in help when you do not know a command?",
+    "relevant_pages": [
+      64
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 18.391174250049517,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 11.641963416012004,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 96.9746241660323,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 81.27860804204829,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 2,
+    "query": "What does IDLE's color coding tell you about Python code?",
+    "relevant_pages": [
+      77
+    ],
+    "query_type": "lexical",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 9.758827999932691,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 11.673752625007182,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 75.94611933303531,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 66.04885058302898,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 3,
+    "query": "Why is indentation useful when writing Python code in IDLE?",
+    "relevant_pages": [
+      88
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 12.258392166928388,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.5,
+      "latency": 10.95762016705703,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 100.79279633401893,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 87.55040554108564,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 4,
+    "query": "How can comments be used to leave reminders in Python code?",
+    "relevant_pages": [
+      91
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 12.653265333967283,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 10.940687583060935,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 84.31878675008193,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "bm25_rewritten",
+      "best_strategies": [
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 81.2076723750215,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "bm25_rewritten",
+      "best_strategies": [
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 5,
+    "query": "What are Python's essential numeric data types?",
+    "relevant_pages": [
+      101
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.0,
+      "latency": 9.126618916983716,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.0,
+      "latency": 6.918640292016789,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 86.16102245810907,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "dense_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 42.90679854201153,
+      "attempts": 2,
+      "mode": "exploit",
+      "initial_strategy": "dense_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 6,
+    "query": "How are Boolean values represented in Python?",
+    "relevant_pages": [
+      105
+    ],
+    "query_type": "lexical",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 8.587344750063494,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 9.085619040997699,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 63.42259349999949,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 56.990148707991466,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 7,
+    "query": "How does the book explain working with dates and times in Python?",
+    "relevant_pages": [
+      107
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.8,
+      "latency": 14.211226374958642,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.75,
+      "latency": 12.836035292013548,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 132.6360693339957,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 62.32207187497988,
+      "attempts": 2,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 8,
+    "query": "Why does operator precedence matter in Python expressions?",
+    "relevant_pages": [
+      119
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 12.790630333009176,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 12.673344625043683,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 59.146157625014894,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 57.03292570798658,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 9,
+    "query": "How do you define a function in Python?",
+    "relevant_pages": [
+      121,
+      122
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 11.27434062503744,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 10.624795624986291,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 98.87576054199599,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_original",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 44.17861408391036,
+      "attempts": 2,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_original",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 10,
+    "query": "How do you call a function after it has been defined?",
+    "relevant_pages": [
+      123,
+      124
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 9.87487208400853,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 0.2,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.5,
+      "latency": 12.089174415916204,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 89.29642974992748,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 69.85382991703227,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 11,
+    "query": "How do you pass information into a Python function?",
+    "relevant_pages": [
+      124
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 10.512223042082042,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.3333333333333333,
+      "latency": 15.848839416983537,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.5,
+      "latency": 115.72925612493418,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "dense_rewritten",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.5,
+      "latency": 88.30397941591218,
+      "attempts": 4,
+      "mode": "exploit",
+      "initial_strategy": "dense_rewritten",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 12,
+    "query": "How can a function accept a variable number of arguments?",
+    "relevant_pages": [
+      127,
+      128
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.6666666666666666,
+      "latency": 13.365361667005345,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 9.814624957973137,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 66.50816600001417,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 62.795349874999374,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 13,
+    "query": "How does a Python function return information to its caller?",
+    "relevant_pages": [
+      128,
+      129
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 0.25,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 9.588305208017118,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 8.474292375030927,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 90.18989158398472,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_original",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 38.882951834006235,
+      "attempts": 2,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_original",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 14,
+    "query": "How can function return values be used in comparisons?",
+    "relevant_pages": [
+      130
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 11.62155662488658,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 9.180970459012315,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 105.95621354191098,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 98.47900408296846,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 15,
+    "query": "How does an if statement make a simple decision in Python?",
+    "relevant_pages": [
+      134
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 15.248712416971102,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.8333333333333334,
+      "latency": 14.593706667074002,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 82.93554129207041,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_original",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 20.071731625008397,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_original",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 16,
+    "query": "How do you choose between two alternatives using if and else?",
+    "relevant_pages": [
+      140
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.5,
+      "latency": 12.08730904199183,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.5,
+      "latency": 11.67327466700226,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.75,
+      "latency": 111.80083054199349,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_original",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.75,
+      "latency": 99.16813329095021,
+      "attempts": 4,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_original",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 17,
+    "query": "How can if, elif, and else be used when there are more than two possible outcomes?",
+    "relevant_pages": [
+      141
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.0,
+      "latency": 12.979372209054418,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 16.51648941601161,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 106.65952587500215,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_original",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 15.915201707975939,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_original",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 18,
+    "query": "What is a nested decision statement and when would you use one?",
+    "relevant_pages": [
+      145
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.6666666666666666,
+      "latency": 13.13723954197485,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.75,
+      "latency": 11.7250031249132,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.75,
+      "latency": 110.21611216699239,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.75,
+      "latency": 101.00359487510286,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 19,
+    "query": "How do you create a basic for loop in Python?",
+    "relevant_pages": [
+      151
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.25,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 13.44264604197815,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 14.597277750028297,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 66.68118062498979,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 62.57766891596839,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 20,
+    "query": "What does the break statement do inside a loop?",
+    "relevant_pages": [
+      152
+    ],
+    "query_type": "lexical",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.5,
+      "latency": 10.075851875008084,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 9.8201634590514,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 71.54505066701677,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 64.65008833399042,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 21,
+    "query": "What does continue do when used inside a loop?",
+    "relevant_pages": [
+      154
+    ],
+    "query_type": "lexical",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.5,
+      "latency": 16.7156067090109,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.0,
+      "latency": 13.807887415983714,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 93.98737099999562,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "bm25_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 10.991860957932658,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "bm25_rewritten",
+      "strategy": "bm25_rewritten",
+      "best_strategies": [
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 22,
+    "query": "How does a while loop differ from a for loop in how repetition is controlled?",
+    "relevant_pages": [
+      159
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.0,
+      "latency": 13.401989917038009,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.5,
+      "latency": 15.811996583011933,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.5,
+      "latency": 116.4643177089747,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "bm25_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.5,
+      "latency": 100.79305012500845,
+      "attempts": 4,
+      "mode": "exploit",
+      "initial_strategy": "bm25_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 23,
+    "query": "What does it mean to nest loop statements in Python?",
+    "relevant_pages": [
+      161
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 10.396863666945137,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 12.567982957931235,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 82.48929304198828,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "bm25_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 18.961110332980752,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "bm25_rewritten",
+      "strategy": "bm25_rewritten",
+      "best_strategies": [
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 24,
+    "query": "How does the book distinguish different types of Python errors?",
+    "relevant_pages": [
+      169
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.5,
+      "latency": 11.653362125041895,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 13.623866542009637,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 124.87397508404683,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "bm25_rewritten",
+      "best_strategies": [
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 114.45249212498311,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "bm25_rewritten",
+      "best_strategies": [
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 25,
+    "query": "How do you perform basic exception handling in Python?",
+    "relevant_pages": [
+      172
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 21.460320416954346,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 14.129151958972216,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 96.07087829092052,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 22.665288832969964,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 26,
+    "query": "What is nested exception handling?",
+    "relevant_pages": [
+      180
+    ],
+    "query_type": "lexical",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 12.032202375005,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 10.791975540923886,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.2,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 66.65253954194486,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 15.817967292037793,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 27,
+    "query": "How can a program deliberately raise an exception?",
+    "relevant_pages": [
+      190
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 11.48759025009349,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 10.657953708083369,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 81.50279300007969,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_original",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 15.15717133297585,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_original",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 28,
+    "query": "How do you create and use a custom exception in Python?",
+    "relevant_pages": [
+      192
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 17.466022291919217,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 19.66339754103683,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 128.30119295802433,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 31.72709612501785,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 29,
+    "query": "What is the purpose of the finally clause in exception handling?",
+    "relevant_pages": [
+      194
+    ],
+    "query_type": "lexical",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.5,
+      "latency": 20.106056084041484,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.5,
+      "latency": 14.886764207971282,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 90.39497858402319,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 83.66210524993949,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 30,
+    "query": "How does the import statement bring a module into a Python program?",
+    "relevant_pages": [
+      203
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 12.006377249956131,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 10.077259917045012,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 102.2561024579918,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 95.37639145797584,
+      "attempts": 4,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 31,
+    "query": "What is the difference between import and from...import?",
+    "relevant_pages": [
+      203,
+      204
+    ],
+    "query_type": "comparison",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.8,
+      "latency": 14.575099708046764,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 10.782375083072111,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 86.41876141692046,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 82.53366458404344,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 32,
+    "query": "How can you use Python module documentation to learn about a library?",
+    "relevant_pages": [
+      214
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.0,
+      "latency": 28.436518665985204,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.5,
+      "latency": 15.88680341700092,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 125.77083820803091,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 109.91547691693995,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 33,
+    "query": "How are characters represented inside Python strings?",
+    "relevant_pages": [
+      223
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 11.005567791988142,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 11.758792500011623,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 82.67048491700552,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 13.410455917008221,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 34,
+    "query": "How do you select an individual character from a string?",
+    "relevant_pages": [
+      227
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 10.235865041962825,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 8.827562916907482,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 73.7358372079907,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 57.473630249965936,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 35,
+    "query": "How does string slicing let you extract part of a string?",
+    "relevant_pages": [
+      229
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 9.271946000051685,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.5,
+      "latency": 12.274237166973762,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 92.72733945795335,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 87.68548070802353,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 36,
+    "query": "How can you locate a value inside a string?",
+    "relevant_pages": [
+      233
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.0,
+      "latency": 23.12648579198867,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 13.505515040946193,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 114.63454349990934,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 108.07151987496763,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 37,
+    "query": "How can string output be formatted in Python?",
+    "relevant_pages": [
+      235
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 15.187907250015996,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 16.53309550008271,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 112.14338954200502,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 22.441098458948545,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 38,
+    "query": "How do you create a list in Python?",
+    "relevant_pages": [
+      242
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 10.163487165933475,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.5,
+      "latency": 11.916779416962527,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 101.44236583390739,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "dense_rewritten",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 40.803308542002924,
+      "attempts": 2,
+      "mode": "exploit",
+      "initial_strategy": "dense_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 39,
+    "query": "How do you access values stored in a Python list?",
+    "relevant_pages": [
+      244
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.25,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.0,
+      "latency": 14.601310790982097,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 0.0,
+      "faithfulness": 1.0,
+      "latency": 10.985700582969002,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.25,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 100.65943683311343,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.25,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 82.53498633403797,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 40,
+    "query": "How can you loop through all items in a list?",
+    "relevant_pages": [
+      247
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 9.005633749999106,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 11.000317625002936,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 70.07018891593907,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 76.7801853340352,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 41,
+    "query": "How can a Python list be modified after it is created?",
+    "relevant_pages": [
+      248
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 9.647118584020063,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 14.802897666930221,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 84.67883949994575,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 80.84354987496044,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 42,
+    "query": "How do you search for an item in a list?",
+    "relevant_pages": [
+      252
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 11.40436779090669,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 9.625932791037485,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 74.80483662500046,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 66.16958712495398,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 43,
+    "query": "How can you sort values in a Python list?",
+    "relevant_pages": [
+      254
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 11.216451125103049,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 11.358486666926183,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 88.25046062504407,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 75.39066245802678,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 44,
+    "query": "What is the Counter object used for?",
+    "relevant_pages": [
+      256
+    ],
+    "query_type": "lexical",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 18.01561529096216,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 10.991237749927677,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 57.2338571670698,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 55.427073333994485,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 45,
+    "query": "How are tuples different from ordinary lists?",
+    "relevant_pages": [
+      261
+    ],
+    "query_type": "comparison",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.5,
+      "latency": 10.004720499971882,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.6666666666666666,
+      "latency": 13.675228958018124,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 77.90354579198174,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 46.7844311670633,
+      "attempts": 2,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 46,
+    "query": "How do Python dictionaries organize data?",
+    "relevant_pages": [
+      264,
+      265
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 0.5,
+      "rr": 0.5,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.5,
+      "latency": 10.055028083967045,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 8.09161716606468,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 84.54563483293168,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 0.5,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 15.184063874999993,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 47,
+    "query": "How can a list be used to implement a stack?",
+    "relevant_pages": [
+      272
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.0,
+      "latency": 12.715359042049386,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 13.625808415934443,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 64.52011437492911,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 15.600241417065263,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 48,
+    "query": "How does the book implement queue-style data handling?",
+    "relevant_pages": [
+      276
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.25,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.0,
+      "latency": 18.758123166975565,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 16.892137333983555,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 89.04280370799825,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 20.367285374901257,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 49,
+    "query": "What is a deque and how is it used?",
+    "relevant_pages": [
+      279
+    ],
+    "query_type": "lexical",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 11.386265916982666,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 12.211296833003871,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 103.5582171670394,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 95.10650895803701,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 50,
+    "query": "How do you define a class in Python?",
+    "relevant_pages": [
+      285
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.5,
+      "latency": 13.2042684169719,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.25,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.0,
+      "latency": 13.315066125011072,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.2,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 111.93804412498139,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "dense_rewritten",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.2,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 15.068433166015893,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "dense_rewritten",
+      "strategy": "dense_rewritten",
+      "best_strategies": [
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 51,
+    "query": "What role do methods play inside a Python class?",
+    "relevant_pages": [
+      289
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.25,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.0,
+      "latency": 10.305440666968934,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.0,
+      "latency": 11.635632917052135,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 110.95098587498069,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_original",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 91.7257189580705,
+      "attempts": 4,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_original",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original",
+        "hybrid_rewritten",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 52,
+    "query": "What is a constructor and how is it used in a class?",
+    "relevant_pages": [
+      291
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 13.98643562500365,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 15.266142916982062,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 81.3292723329505,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 83.7231052920688,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 53,
+    "query": "What does operator overloading allow a Python class to do?",
+    "relevant_pages": [
+      298
+    ],
+    "query_type": "semantic",
+    "difficulty": "hard",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.2,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.5,
+      "latency": 13.196473041898571,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.6666666666666666,
+      "latency": 15.649750374956056,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 97.9093287079595,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 93.67516983300447,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 54,
+    "query": "How do you extend an existing class to create a child class?",
+    "relevant_pages": [
+      303
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 10.936738874996081,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.0,
+      "latency": 9.981034207972698,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 122.87747058295645,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 94.92767520796042,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 55,
+    "query": "How do you create a file for permanent storage in Python?",
+    "relevant_pages": [
+      314
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.6,
+      "latency": 17.00717712508049,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.75,
+      "latency": 15.96862445899751,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 149.36461879196577,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 133.07911737496033,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 56,
+    "query": "How do you read content from a file?",
+    "relevant_pages": [
+      317
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 19.493203666992486,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 0.6666666666666666,
+      "latency": 16.543228333932348,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 126.42361020902172,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 116.76196024997625,
+      "attempts": 4,
+      "mode": "exploit",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 57,
+    "query": "How can existing file content be updated?",
+    "relevant_pages": [
+      319
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.25,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 9.933582666912116,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 11.024990167003125,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 106.41577858291566,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 99.65574837499298,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 58,
+    "query": "How do you delete a file from Python?",
+    "relevant_pages": [
+      324
+    ],
+    "query_type": "semantic",
+    "difficulty": "easy",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 14.449539624969475,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 13.58270074997563,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.6,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 68.24852687492967,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "bm25_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 13.512584541924298,
+      "attempts": 1,
+      "mode": "exploit",
+      "initial_strategy": "bm25_rewritten",
+      "strategy": "bm25_rewritten",
+      "best_strategies": [
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 59,
+    "query": "How does the book create a plain-text email message in Python?",
+    "relevant_pages": [
+      339
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 46.736325000063516,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 14.454581542056985,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 78.43363420898095,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 83.41457825002726,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 60,
+    "query": "How does creating an HTML email differ from creating a plain-text email?",
+    "relevant_pages": [
+      340
+    ],
+    "query_type": "comparison",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.5,
+      "latency": 14.115757249994203,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.6666666666666666,
+      "latency": 17.650833250023425,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.25,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 104.88828662503511,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_original",
+      "best_strategies": [
+        "hybrid_original",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "latency": 96.28209966700524,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "bm25_rewritten",
+      "best_strategies": [
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": false
+    }
+  },
+  {
+    "question_number": 61,
+    "query": "What is VirtualEnv used for in Python development?",
+    "relevant_pages": [
+      365
+    ],
+    "query_type": "lexical",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 9.951946625020355,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 7.592957374989055,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 88.39791800000239,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 78.763518959051,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 62,
+    "query": "How can PyUnit be used to test Python applications?",
+    "relevant_pages": [
+      370
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 7.550462582963519,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 8.877193249994889,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 78.02073758398183,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.4,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 73.36862295889296,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 63,
+    "query": "What does SQLAlchemy provide for Python database work?",
+    "relevant_pages": [
+      374
+    ],
+    "query_type": "lexical",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.5,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 10.781047583906911,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 8.18049787497148,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 78.30974970804527,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 0.3333333333333333,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 75.27820874995086,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  },
+  {
+    "question_number": 64,
+    "query": "How can TkInter be used to add a graphical user interface to a Python application?",
+    "relevant_pages": [
+      375
+    ],
+    "query_type": "semantic",
+    "difficulty": "medium",
+    "baseline_dense": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 13.56935424997937,
+      "attempts": 1
+    },
+    "static_advanced": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 11.569926959113218,
+      "attempts": 1
+    },
+    "explore_all_agent": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 94.67025049997028,
+      "attempts": 4,
+      "mode": "explore_forced",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    },
+    "self_improving": {
+      "hit": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "rr": 1.0,
+      "answer_relevance": 0.5,
+      "faithfulness": 1.0,
+      "latency": 96.98006333399098,
+      "attempts": 4,
+      "mode": "explore",
+      "initial_strategy": "hybrid_rewritten",
+      "strategy": "hybrid_rewritten",
+      "best_strategies": [
+        "hybrid_rewritten",
+        "hybrid_original",
+        "dense_rewritten",
+        "bm25_rewritten"
+      ],
+      "best_strategy_tie": true
+    }
+  }
+]
